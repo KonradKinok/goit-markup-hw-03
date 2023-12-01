@@ -49,12 +49,6 @@ body{
     background: var(--navy-blue);
 }
 
-/* .logo-secondpart, .footer{
-    background-color: var(--navy-blue);
-} */
-/* Styl .logo-secondpart dotyczy koloru czcionki loga znajdującej się na górze strony Natomiast styl .footer zawiera kolor tła footera. Po połączeniu tych dwóch styli górne logo (słowo Studio) ma tło koloru navy-blue zamiast white i kolor czcionki domyślny, zamiast navy-blue. Chyba, że chodziło o styl .section-one i .footer. To te dwa style połączyłem. */
-
-
 .text-footer
 {
     font-size: 16px;

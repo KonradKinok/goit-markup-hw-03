@@ -70,8 +70,7 @@ body{
 
 .list .link:hover,
 .list .link:focus {
-    /* color:var(--ocean); */
-    color: yellow;
+    color:var(--ocean);
 }
 
 /* .list {

@@ -122,6 +122,9 @@ body{
     gap: 40px;
 }
 
+.header-nav-list .link{
+    padding: 24px 0;
+}
 /* Adres */
 .address {
     font-style: normal;
@@ -150,6 +153,7 @@ body{
 }
 
 .section-one{
+    padding: 188px 0;
     background: var(--navy-blue);
 }
 
@@ -189,6 +193,23 @@ body{
 }
 
 /* Section2 Section3*/
+.visually-hidden {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+    clip: rect(1px, 1px, 1px, 1px);
+    /*maybe deprecated but we need to support legacy browsers */
+    clip-path: inset(50%);
+    /*modern browsers, clip-path works inwards from each corner*/
+    white-space: nowrap;
+    /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+}
 .section-list {
     display: flex;
     gap: 24px;
@@ -213,12 +234,16 @@ body{
     margin-bottom: 72px;
 }
 
+/* Studio: h3 */
 .list-item-header {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
     color: var(--navy-blue);
+
+    /* czy dodać */
+    margin-bottom: 8px;
 }
 
 .text {
@@ -250,8 +275,11 @@ body{
 /* Footer */
 .footer{
     background: var(--navy-blue);
+    padding: 100px 0;
 }
-
+.footer .logo{
+    margin-bottom: 16px;
+}
 .text-footer
 {
     font-size: 16px;
@@ -263,6 +291,9 @@ body{
 
 
 /* Portfolio */
+.section-portfolio{
+    padding: 96px 0 120px 0;
+}
 .button-portfolio-list {
     display: flex;
     justify-content: center;

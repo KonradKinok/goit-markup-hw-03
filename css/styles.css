@@ -61,7 +61,7 @@ body{
     text-decoration: none;
 }
 .list .link {
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -139,7 +139,7 @@ body{
 }
 
 .address .link {
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -173,7 +173,7 @@ body{
 .button-orderservice {
     font-family: 'Roboto', sans-serif;
     background: var(--iris);
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
@@ -193,6 +193,17 @@ body{
 }
 
 /* Section2 Section3*/
+
+/* Odstępy robiłem sugerując się punktem wytycznych zadania domowego:  */
+/* «B15» Dla wszystkich sekcji używana jest jedna klasa .section,
+górne i dolne padding są ustawione na 120px,
+wypychając zawartość do wnętrza sekcji. */
+/*Zbędne font-size: 16px zakomentowałem. */
+.section-three{
+    padding: 0 0 120px 0;
+}
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -242,7 +253,7 @@ body{
 }
 
 .text {
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--slate);
@@ -277,7 +288,7 @@ body{
 }
 .text-footer
 {
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--cloud);
@@ -299,7 +310,7 @@ body{
 .button-portfolio{
     font-family: 'Roboto', sans-serif;
     background: var(--cloud);
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
@@ -313,7 +324,7 @@ body{
 .button-portfolio:hover,
 .button-portfolio:focus{
     background: var(--ocean);
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
